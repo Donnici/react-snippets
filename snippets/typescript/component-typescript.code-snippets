@@ -5,13 +5,13 @@
     "body": [
       "import React, { FC } from 'react';",
       "",
-      "const $1: FC = () => {",
+      "const ${fileBasenameNoExtension}: FC = () => {",
       "\treturn (",
       "\t\t$0",
       "\t);",
       "}",
       "",
-      "export default $1;"
+      "export default ${fileBasenameNoExtension};"
     ]
   },
   "Componente funcional com props": {
@@ -20,17 +20,17 @@
     "body": [
       "import React, { FC } from 'react';",
       "",
-      "type $1Props = {",
+      "type ${fileBasenameNoExtension}Props = {",
       "\t$0",
       "};",
       "",
-      "const $1: FC = (props: $1Props) => {",
+      "const ${fileBasenameNoExtension}: FC = (props: ${fileBasenameNoExtension}Props) => {",
       "\treturn (",
       "\t\t<div />",
       "\t);",
       "}",
       "",
-      "export default $1;"
+      "export default ${fileBasenameNoExtension};"
     ]
   }
 }
