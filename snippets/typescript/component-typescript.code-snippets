@@ -1,0 +1,36 @@
+{
+  "Componente funcional": {
+    "prefix": "rtce",
+    "description": "Geração de de componente funcional com export default",
+    "body": [
+      "import React, { FC } from 'react';",
+      "",
+      "const $1: FC = () => {",
+      "\treturn (",
+      "\t\t$0",
+      "\t);",
+      "}",
+      "",
+      "export default $1;"
+    ]
+  },
+  "Componente funcional com props": {
+    "prefix": "rtcep",
+    "description": "Geração de de componente funcional com props e export default",
+    "body": [
+      "import React, { FC } from 'react';",
+      "",
+      "type $1Props = {",
+      "\t$0",
+      "};",
+      "",
+      "const $1: FC = (props: $1Props) => {",
+      "\treturn (",
+      "\t\t<div />",
+      "\t);",
+      "}",
+      "",
+      "export default $1;"
+    ]
+  }
+}

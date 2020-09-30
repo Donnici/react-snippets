@@ -1,0 +1,21 @@
+{
+  "name": "reactts",
+  "displayName": "reactts",
+  "description": "Snippets para react com typescript",
+  "version": "0.0.1",
+  "publisher": "brunodonnici",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/typescript/component-typescript.code-snippets"
+      }
+    ]
+  }
+}
